@@ -22,7 +22,7 @@ submission_template
 ├── dataset.tsv
 ├── results.tsv
 ├── README.md
-
+├── other folders are optional in this assignment
 ```
 
 These three files should be added by you at the root of `submission_template`.
@@ -110,7 +110,13 @@ Ran 2 tests in 0.029s
 ## Submitting the assignment
 
 
-Once you are happy with your results, **submit the file through MyCourses**.
+Once you are happy with your results, **submit the `submission_template` folder through MyCourses**.
+
+Make sure you submit the entire folder. Just select the `submission_template` once you complete the exercises.
+
+Alternatively, you can send out a `submission_template.zip`.
+
+Please do not submit any other file formats or folder structures.
 
 **Note** This is VERY important. Please make sure you follow these steps accordingly, otherwise we won't be able to grade your assignment! 
 
