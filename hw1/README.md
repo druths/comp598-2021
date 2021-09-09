@@ -110,15 +110,12 @@ Ran 2 tests in 0.029s
 ## Submitting the assignment
 
 
-Once you are happy with your results, **submit the `submission_template` folder through MyCourses**.
+Once you are happy with your results, zip the **`submission_template` and send it through MyCourses**.
 
-Make sure you submit the entire folder. Just select the `submission_template` once you complete the exercises.
+Make sure you zip and submit the entire folder. Just click on the `submission_template` folder and zip it once you complete the exercises.
 
-Alternatively, you can send out a `submission_template.zip`.
+The final zip file should be a `submission_template.zip` file.
 
 Please do not submit any other file formats or folder structures.
 
 **Note** This is VERY important. Please make sure you follow these steps accordingly, otherwise we won't be able to grade your assignment! 
-
-Happy coding!
-
