@@ -15,7 +15,7 @@ class ResultsTest(unittest.TestCase):
         self.assertEqual(os.path.isfile(self.dataset_file_path), True)
         print("OK")
         print("Check header")
-        with open(self.dataset_file_path, 'r') as f:
+        with open(self.dataset_file_path, 'r', encoding='utf-8') as f:
             header = f.readline()
             self.assertEqual(header.startswith("result"), True)
         f.close()
