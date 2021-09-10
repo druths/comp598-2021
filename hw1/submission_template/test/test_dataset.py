@@ -19,15 +19,25 @@ class DatasetTest(unittest.TestCase):
         print("Check header")
         with open(self.dataset_file_path, 'r') as f:
             header = f.readline()
-            self.assertEqual(header.startswith("tweet_id"), True)
+            startFlag = False
+            if header.startswith("tweet_id") or header.startswith("\t"):
+                startFlag = True
+            self.assertEqual(startFlag, True)
         f.close()
         df = pd.read_csv(self.dataset_file_path, sep='\t')
         cols = list(df.columns)
-        self.assertEqual(len(cols), 4)
-        self.assertEqual(cols[0], 'tweet_id')
-        self.assertEqual(cols[1], 'publish_date')
-        self.assertEqual(cols[2], 'content')
-        self.assertEqual(cols[3], 'trump_mention')
+        self.assertTrue(len(cols) in [4, 5])
+        if len(cols) == 4:
+            self.assertEqual(cols[0], 'tweet_id')
+            self.assertEqual(cols[1], 'publish_date')
+            self.assertEqual(cols[2], 'content')
+            self.assertEqual(cols[3], 'trump_mention')
+        else:
+            self.assertEqual(cols[0], 'Unnamed: 0')
+            self.assertEqual(cols[1], 'tweet_id')
+            self.assertEqual(cols[2], 'publish_date')
+            self.assertEqual(cols[3], 'content')
+            self.assertEqual(cols[4], 'trump_mention')
         print("✅")
         
         print("Check file contents")

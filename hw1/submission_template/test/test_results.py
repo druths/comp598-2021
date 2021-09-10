@@ -17,13 +17,20 @@ class ResultsTest(unittest.TestCase):
         print("Check header")
         with open(self.dataset_file_path, 'r') as f:
             header = f.readline()
-            self.assertEqual(header.startswith("result"), True)
+            if header.startswith("result") or header.startswith("\t"):
+                startFlag = True
+            self.assertEqual(startFlag, True)
         f.close()
         df = pd.read_csv(self.dataset_file_path, sep='\t')
         cols = list(df.columns)
-        self.assertEqual(len(cols), 2)
-        self.assertEqual(cols[0], 'result')
-        self.assertEqual(cols[1], 'value')
+        self.assertTrue(len(cols) in [2, 3])
+        if len(cols) == 2:
+            self.assertEqual(cols[0], 'result')
+            self.assertEqual(cols[1], 'value')
+        else:
+            self.assertEqual(cols[0], 'Unnamed: 0')
+            self.assertEqual(cols[1], 'result')
+            self.assertEqual(cols[2], 'value')
         print("✅")
         
         print("Check file contents")
