@@ -13,7 +13,7 @@ class ResultsTest(unittest.TestCase):
         print("\nRUNNING TESTS FOR HW1 - results.tsv")
         print("Ensure results.tsv exists")
         self.assertEqual(os.path.isfile(self.dataset_file_path), True)
-        print("✅")
+        print("OK")
         print("Check header")
         with open(self.dataset_file_path, 'r') as f:
             header = f.readline()
@@ -24,14 +24,14 @@ class ResultsTest(unittest.TestCase):
         self.assertEqual(len(cols), 2)
         self.assertEqual(cols[0], 'result')
         self.assertEqual(cols[1], 'value')
-        print("✅")
+        print("OK")
         
         print("Check file contents")
         df = pd.read_csv(self.dataset_file_path, sep='\t')
         self.assertEqual((len(df.index) == 1), True)
-        print("✅")
+        print("OK")
 
-        print("You are all set! 💜")
+        print("You are all set! <3")
     
     
 if __name__ == '__main__':
