@@ -103,6 +103,11 @@ Ran 2 tests in 0.029s
 * In many operating systems, you might need to replace the command `python` with `python3`. Watch out for that and **make sure you are always using Python 3**.
 * If you are familiar with Git, clone this repository. But be careful! You can easily run into merge issues. Make sure you are familiar enough with git before going down on this path.
 
+### virtualenv
+
+If you install `virtualenv`, here are some tips:
+`python -m venv hwenv` creates a new environment. `deactivate` deactivates an existing env. To load the new env you created, run `source hwenv/bin/activate`.
+
 ## Submitting the assignment
 
 
