@@ -9,22 +9,21 @@ To avoid pain and discomfort, follow the steps below carefully:
 In this directory, you'll find another folder, `submission_template`.
 **ALL YOUR ANSWERS** must be inside the `submission_template` folder. 
 
-Note that HW2 has a mandatory `.sh` file and a `.txt` file. They should be inside `submission_template` directly. Like this:
+Note that HW2 has a mandatory `.txt` file. They should be inside `submission_template` directly. Like this:
 
 ```
 submission_template
-├── stats.sh
 ├── ip_address.txt
 ├── other folders are optional in this assignment
 ```
 
-These files should be added by you at the root of `submission_template`.
+This file should be added by you at the root of `submission_template`.
 
 ## Your code
 
 
 If you want to add a data file to test your script, add it under the `data` folder. This is optional.
-DO not add any Apache files in your submission.
+Do not add any Apache files in your submission.
 
 ## Setting up the project
 
@@ -68,6 +67,7 @@ If you are on the right track, you should receive a nice message saying all chec
 
 ## Other tips
 
+* There are multiple ways to obtain free credits for using AWS. Take a look at a program called "AWS Educate". You may get up to 75$ in credits. Note: The TAs won't have specific instructions to help with specific questions related to this program, but it might be a good idea to give it a try.
 * `virtualenv` is an optional asset to help you keeping your Python environment organized.
 * In many operating systems, you might need to replace the command `python` with `python3`. Watch out for that and **make sure you are always using Python 3**.
 * If you are familiar with Git, clone this repository. But be careful! You can easily run into merge issues. Make sure you are familiar enough with git before going down on this path.
