@@ -21,6 +21,7 @@ This file should be added by you at the root of `submission_template`.
 
 ## Your code
 
+`ip_address.txt` should be a single-line file containing only the IP Address of your instance. **Do not add anything else in this file**.
 
 If you want to add a data file to test your script, add it under the `data` folder. This is optional.
 Do not add any Apache files in your submission.
