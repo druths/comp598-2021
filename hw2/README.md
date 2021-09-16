@@ -68,7 +68,7 @@ If you are on the right track, you should receive a nice message saying all chec
 
 ## Other tips
 
-* There are multiple ways to obtain free credits for using AWS. Take a look at a program called "AWS Educate". You may get up to 75$ in credits. Note: The TAs won't have specific instructions to help with specific questions related to this program, but it might be a good idea to give it a try.
+* There are multiple ways to obtain free credits for using AWS. AWS offers "free tier" options, in which they might cover up to 75$ of your bill if you go for the 'free tier' settings. For HW2, it might work (but not for future assignments). Note: The TAs won't have specific instructions to help with specific questions related to these alternatives, but it might be a good idea to give it a try if you really need to save money for this particular assignment.
 * `virtualenv` is an optional asset to help you keeping your Python environment organized.
 * In many operating systems, you might need to replace the command `python` with `python3`. Watch out for that and **make sure you are always using Python 3**.
 * If you are familiar with Git, clone this repository. But be careful! You can easily run into merge issues. Make sure you are familiar enough with git before going down on this path.
