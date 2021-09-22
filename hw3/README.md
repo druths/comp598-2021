@@ -25,7 +25,9 @@ submission_template
 
 ## Your code
 
-Develop your solution under respecting the tree structure mentioned above; do not change it. You can have additional files if needed (i.e. you can place the CSV file under `data/`, or have multiple classes under the `src` directory).
+Develop your solution under respecting the tree structure mentioned above; do not change it. You can have additional files if needed (i.e. have multiple classes under the `src` directory).
+
+**Add any CSV file under `data/`** (for example, `clean_dialog.csv`, or the test file for developing the `stats` script).
 
 **Make sure all your `.py` files go into `src` (if you end up having multiple files; this is optional), and ensure the `.sh` files goes under `scripts` .**
 
