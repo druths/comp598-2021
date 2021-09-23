@@ -81,13 +81,15 @@ If you are on the right track, you should receive a nice message saying all chec
 # Submitting the assignment - VERY IMPORTANT - NEW INSTRCUTIONS
 
 
-Once you are happy with your results, locate the `submission_wrapper.py` file and run
+Once you are happy with your results, head to the `submission_template` folder and locate the `submission_wrapper.py` file (it is on the root of `submission_template`. Then run
 
 `python submission_wrapper.py -id STUDENTID`.
 
-**Replace `STUDENTID` with your McGill ID (a number).** 
+**Replace `STUDENTID` with your McGill ID (a number).** For example, if your student ID is `123456`, run `python submission_wrapper.py -id 123456`.
 
-It will zip everything needed for this assignment into a **`STUDENTID_submission_template.zip` file. You must submit the produced .zip on MyCourses**.
+**Make sure you call this script from the `submission_template` folder and not from other folders.**
+
+The script will zip everything needed for this assignment into a **`STUDENTID_submission_template.zip` file. You must submit the produced .zip on MyCourses**.
 
 
 You can unzip and inspect the generated `submission_template.zip` file to double check it corresponds to the submission guideline; just make sure the final submission that goes to myCourses is **the generated zip file**.

@@ -23,15 +23,14 @@ class OutputTest(unittest.TestCase):
             print("OK")
 
             print("Ensure keys for count are correct")
-            keys_count = ["Twilight Sparkle", "Applejack", "Rarity", "Pinkie Pie", "Rainbow Dash", "Fluttershy"]
+            keys = ["twilight sparkle", "applejack", "rarity", "pinkie pie", "rainbow dash", "fluttershy"]
             key_count_in_file = results.get("count", {}).keys()
-            self.assertCountEqual(list(key_count_in_file), keys_count)
+            self.assertCountEqual(list(key_count_in_file), keys)
             print("OK")
 
             print("Ensure keys for verbosity are correct")
-            keys_verbosity = ["twilight", "applejack", "rarity", "pinkie", "rainbow", "fluttershy"]
             key_verbosity_in_file = results.get("verbosity", {}).keys()
-            self.assertCountEqual(list(key_verbosity_in_file), keys_verbosity)
+            self.assertCountEqual(list(key_verbosity_in_file), keys)
             print("OK")
         f.close()
 
