@@ -6,7 +6,7 @@ If you do not follow the template specified here, **we will not able to grade yo
 To avoid pain and discomfort, follow the steps below carefully:
 
 # THERE ARE NEW GUIDELINES TO SUBMIT THE ASSIGNMENT
-Please refer tot hem in the appropriate section below. 
+Please refer to them in the appropriate section below. 
 
 In this directory, you'll find another folder, `submission_template`.
 **ALL YOUR ANSWERS** must be inside the `submission_template` folder. 
@@ -78,7 +78,7 @@ If you are on the right track, you should receive a nice message saying all chec
 * In many operating systems, you might need to replace the command `python` with `python3`. Watch out for that and **make sure you are always using Python 3**.
 * If you are familiar with Git, clone this repository. But be careful! You can easily run into merge issues. Make sure you are familiar enough with git before going down on this path.
 
-# Submitting the assignment - VERY IMPORTANT - NEW INSTRCUTIONS
+# Submitting the assignment - VERY IMPORTANT - NEW INSTRUCTIONS
 
 
 Once you are happy with your results, head to the `submission_template` folder and locate the `submission_wrapper.py` file (it is on the root of `submission_template`. Then run
