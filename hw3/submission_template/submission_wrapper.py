@@ -11,15 +11,19 @@ def main():
     print("Preparing files to zip")
     src_folder = os.path.join('.', 'src')
     scripts_folder = os.path.join('.', 'scripts')
-    output_file = os.path.join('.', 'output.json')
-    to_zip = [src_folder, scripts_folder, output_file]
+    
+    to_zip = [src_folder, scripts_folder]
     final_zip_name = f"{STUDENTID}_submission_template.zip"
-    with ZipFile(final_zip_name,'w') as zip:
-        for file in to_zip:
-            zip.write(file)
+    with ZipFile(final_zip_name,'w') as zipp:
+        for path in to_zip:
+            for folderName, subfolders, filenames in os.walk(path):
+                for filename in filenames:
+                    filePath = os.path.join(folderName, filename)
+                    zipp.write(filePath)
+        output_file = os.path.join('.', 'output.json')
+        zipp.write(output_file)
     print(f"{final_zip_name} file created successfully - submit it through myCourses <3")
 
-    
 
 if __name__ == "__main__":
     main()
