@@ -24,6 +24,9 @@ This file should be added by you at the root of `submission_template`.
 
 `ip_address.txt` should be a single-line file containing only the IP Address of your instance. **Do not add anything else in this file**.
 
+The IP address of your instance must the specified in a file named `ip_address.txt`. `ip_address.txt` should only contain a single line with ip address to your server, for example, `54.175.131.58`. You are welcome to submit a valid domain name, but it will break the unit tests. It will also break our grading scripts - do this at your own risk.
+
+
 If you want to add a data file to test your script, add it under the `data` folder. This is optional.
 
 You can also add test scripts and Jupyter notebooks under the `src` folder. They are meant to be **for your personal test purposes** only. We won't even look at them; all your work will be evaluated based on the results shown in your EC2 instance.
