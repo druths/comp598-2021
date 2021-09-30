@@ -35,7 +35,7 @@ You can also add test scripts and Jupyter notebooks under the `src` folder. They
 
 Make sure you have these elements installed in your computer:
 
-* Python 3
+* Python 3.6 or higher
 * `pip` - see instructions [here](https://packaging.python.org/tutorials/installing-packages/)
 
 Wait - what is all that?

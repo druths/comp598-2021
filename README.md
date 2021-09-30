@@ -36,7 +36,7 @@ In each assignment, we'll give you precise instructions of the files and folder 
 
 Make sure you have these elements installed in your computer:
 
-* Python 3
+* Python 3.6 or higher
 * `pip` - see instructions [here](https://packaging.python.org/tutorials/installing-packages/)
 
 Wait - what is all that?
