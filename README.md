@@ -1,6 +1,5 @@
 # comp598-2021
-We're so glad that you're taking this class! Here are some resources for the 2021 offering of COMP 598.  
-
+We're so glad that you're taking this class! Here are some resources for the 2021 offering of COMP 598. These will be important to completing the homeworks.
 
 # General submission instructions
 
