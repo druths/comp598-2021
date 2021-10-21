@@ -34,6 +34,8 @@ If needed, you can have auxiliary code/scripts. Make sure everything goes under 
 
 **The example file is inside the `data/` folder.**
 
+**DO NOT MODIFY** the fixture file names, nor the test file name. You can write as many methods as you need in the test file. You can also write other fixtures if you want. 
+
 ## Setting up the project
 
 Make sure you have these elements installed in your computer:
@@ -53,12 +55,12 @@ Once you install `pip`, run (in the `submission_template` folder):
 pip install -r requirements.txt
 ```
 
-(same command you ran for the other HW assignment).
+(same command you ran for the other HW assignments).
 
 
 ## Are you on the right track?
 
-In this assignment, you must write your own test cases! Follow the instructions on the PDF, then follow the usual steps from previous assignments. In the `submission_template` folder, run:
+In this assignment, you must write your own test cases! Follow the instructions on the PDF. In the `submission_template` folder, run:
 
 ```
 python -m unittest
