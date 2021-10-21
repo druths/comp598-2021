@@ -1,0 +1,8 @@
+{"title": "First title", "createdAt": "2020-10-19T02:56:51+0000", "text": "Some post content", "author": "druths", "total_count": "12"}
+{"title_text": "Second title", "createdAt": "2020-10-18T02:56:51+0000", "text": "Some post content", "author": "druths", "tags": [], "total_count": "12.8"}
+{"createdAt": "2020-10-19T02:56:51+0000", "text": "Some post content", "author": "druths", "tags": [], "total_count": 19}
+{"title": "Third title", "createdAt": "2020-10-17T02:56:51+0900", "text": "Some post content", "author": "druths", "total_count": 22, "tags": ["data science", "data", "data annotation"]}
+{"title_text": "Malformed JSON", "createdAt": "2020-10-17T02:56:51+0700", "text": "Some post content", "author": "druths", "total_count": "12"
+{"title_text": "Fourth title", "createdAt": "2020-10-17T02:56:51+0700", "text": "Some post content", "author": "druths", "total_count": 22.9, "tags": ["double axel", "spin", "double Lutz"]}
+{"title_text": "Fifth title", "createdAt": "12345678", "text": "Some post content", "author": "druths", "total_count": "ten"}
+{"title_text": "Fifth title", "createdAt": "2021-04-19T08:16:58+0700", "text": "Some post content", "author": "N/A"}
