@@ -9,7 +9,7 @@ To avoid pain and discomfort, follow the steps below carefully:
 In this directory, you'll find another folder, `submission_template`.
 **ALL YOUR ANSWERS** must be inside the `submission_template` folder. 
 
-Note that HW4 has a mandatory `clean.py` and a `test_clean.py` file. They should be inside `submission_template` following the file structure below:
+Note that HW5 has a mandatory `clean.py` and a `test_clean.py` file. They should be inside `submission_template` following the file structure below:
 
 ```
 submission_template
