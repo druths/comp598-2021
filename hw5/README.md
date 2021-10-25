@@ -20,7 +20,6 @@ submission_template
 ├── other folders are optional in this assignment
 ```
 
-This file should be added by you at the root of `submission_template`.
 
 ## Your code
 
