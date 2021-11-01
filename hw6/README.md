@@ -77,7 +77,7 @@ pip install -r requirements.txt
 ## Are you on the right track?
 
 For each HW assignment, we'll provide you with a set of automated tests. They are located under the `test` folder. 
-For this assignment, do now edit the contents of it!
+For this assignment, do not edit the contents of it!
 
 These tests should give you some guidance during the process of solving the problems.
 In the `submission_template` folder, run:
