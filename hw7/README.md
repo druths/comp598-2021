@@ -47,7 +47,7 @@ Using the instructions in the PDF, run it twice to produce two `.tsv` files:
 
 `python analyze.py -i <coded_file.tsv> [-o <output_file>]`
 
-The `-o` argument is optional. If omitted, print the result to stdout. **Ensure it also dumps the output a a file**. 
+The `-o` argument is optional. If omitted, print the result to stdout. **Ensure your script also dumps the output file when invoked with the `-o` argument**. 
 
 
 If needed, you can have auxiliary code/scripts. Make sure everything goes under the `src` folder.
