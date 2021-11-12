@@ -34,6 +34,8 @@ Make sure your JSON file follows the specified format, and ensure you use the ri
 
 The input file for `compile_word_counts.py`, `clean_dialog.csv`, can be found at: https://www.kaggle.com/liury123/my-little-pony-transcript. Alternatively, you can reuse the one from HW3.
 
+A list of stopwords that need to be removed is available in the `data/` folder.
+
 
 `compute_pony_lang.py` must be successfully invoked with the following command:
 `python compute_pony_lang.py -c <pony_counts.json> -n <num_words>`.
@@ -41,6 +43,8 @@ The input file for `compile_word_counts.py`, `clean_dialog.csv`, can be found at
 Output the results of `compute_pony_lang.py` to the standard output. Ensure your output follows the specified format, and ensure you use the right name keys for the ponies. Everything is properly specified in the PDF file. 
 
 The instructions for writing the test cases are in the PDF file for this HW.
+
+
 
 **DO NOT MODIFY** the fixture file names, nor the test file name. You can write as many methods as you need in the test file. You can also write other fixtures if you want. 
 
