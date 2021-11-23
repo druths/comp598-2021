@@ -13,7 +13,7 @@ class FilesExistTest(unittest.TestCase):
         self.sample1_file_path = os.path.join(parentdir, 'interaction_network.json')
         self.sample2_file_path = os.path.join(parentdir, 'stats.json')
         
-        print("\nRUNNING TESTS FOR HW7")
+        print("\nRUNNING TESTS FOR HW9")
 
     def test_collect(self):
         print(f"Ensure build_interaction_network.py file exists")
